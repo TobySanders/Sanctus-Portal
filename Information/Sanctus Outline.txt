@@ -1,0 +1,139 @@
+=========================================================================================================
+					Sanctus Portal Outline
+=========================================================================================================
+The sanctus portal will be an online portal designed to intergrate several facilities into a single page
+The facilties will be:
+
+>Email
+>Forum
+>Timetable
+>job oppurunities
+>Surveys
+>Announcements
+>News
+>Gallery
+
+
+=======================================================
+Languages
+=======================================================
+The supported languages on the server
+
+>PHP 5.5
+>MySQL
+>HTML5
+>Javascript
+>CSS
+
+=======================================================
+Coding conventions
+=======================================================
+
+-------------------------------------------------------
+HTML
+-------------------------------------------------------
+
+>All tags with no contained elements should be closed internally <example/>
+
+>Anything within a tag should be indented, this rule recurrs:
+
+<tag1>
+	<tag2>
+		some writing
+		<tag3/>
+	<tag2/>
+<tag1/>
+
+>Braces on a function should start on the line after the signature
+
+Method()
+{
+	//stuff
+}
+
+>Single line functions and statements DO require braces
+
+if(x>Y)
+{
+	//do Z
+}
+
+>EVERY Object (including text) must have a relevant ID and Class
+
+>ANY ID with two words should be joined by an underscore
+
+>ID's should be lowercase
+>Classes should start with a capital
+
+>ALL styles must be applied in the CSS NOT the tag
+
+>ALL scripts should be contained in an external file that is clearly named
+
+---------------------------------------------------------
+CSS
+---------------------------------------------------------
+
+>Elements should be identified in the order they are declared
+
+>Any identifiers for a contained object should be indented
+matching their containment level and within and following
+their parent style
+
+>State dependant identifiers should be placed immediatly following
+their non state dependant style
+
+>The opening brace of any style should be placed on the same line
+as the identifier
+
+>All stylings applied should be compatible with all modern browsers
+(Mobile Excluded)
+
+----------------------------------------------------------
+Javascript
+----------------------------------------------------------
+>Anything within a signature should be indented, this rule recurrs:
+
+Method1()
+{
+	if(x>y)
+	{
+		for(int i; i>x: i++)
+		{
+			//do Z
+		}
+	}
+}
+
+>Braces on a function should start on the line after the signature
+
+Method()
+{
+	//stuff
+}
+
+>Single line functions and statements DO require braces
+
+if(x>y)
+{
+	//do Z
+}
+
+>Capitals:
+>>All Functions should begin with a capital letter
+
+>>All Objects should being with a capital letter
+
+>>All variables should begin with lowercase
+
+>>Any variables longer than one word should be camelCase
+
+
+>All variables must be clearly named
+(excluding i/xyz iterators)
+
+>All functions require a comment describing:
+>>Input(if any)
+>>Purpose
+>>Output type
+>>Output Description
+
