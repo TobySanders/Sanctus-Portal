@@ -4,105 +4,6 @@
 	background-color: rgb( 40, 44, 47 );
 	margin: 0px 0px 1px 0px;
 }
-#left_bar{
-	position: fixed;
-  background-color: #dedede;
-  color: #888;
-	text-indent: 5px;
-	width: 15%;
-	height: 80%;
-	left: -13%;
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	      -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -ms-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s; 
-
-}
-#left_bar:hover{
-	left: 0px;
-  background-color: rgb( 40, 44, 47 );
-  color: #fff;
-}
-
-#central_frame{
-  float:left;
-  height: 100%;
-  width: 100%;
-}
-#right_bar{
-	position: fixed;
-	left: 98%;
-	width: 15%;
-	height: 80%;
-	background-color: #dedede;
-  color: #888;
-  	border: 1px solid #dedede;
-  	border-radius: 4px;
-  	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-  	text-indent: 5px;
-            -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -ms-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s; 
-}
-#right_bar:hover{
-    background-color: rgb( 40, 44, 47 );
-    color: #fff;
-    left:87%;
-}
-main{
-  background-color: #dedede;
-  color: #888;
-	text-indent: 5px;
-	position: fixed;
-	width: 95%;
-	left: 2.5%;
-	z-index: -1;
-	height: 80%;
-
-  	border: 1px solid #dedede;
-  	border-radius: 4px;
-  	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-  		      -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        -ms-transition: all 0.2s;
-        -o-transition: all 0.2s;
-        transition: all 0.2s; 
-}
-main:hover{
-  background-color: rgb( 40, 44, 47 );
-    color: #fff;
-}
-#left_bar:hover ~ #main{
-	width: 82%;
-	left: 15.5%;
-}
-#right_bar:hover ~ #main{
-  background-color: #000;
-  width: 82%;
-  left: 77.5%;
-}
-body{
-	color: #888;
-	background-color: aliceblue;
-}
-footer{
-	position: fixed;
-	top: 96.9%;
-	left:0%;
-	width: 100%;
-	text-align: center;
-	color: #000;
-	background-color: #dedede;
-  	border: 1px solid #000;
-  	border-radius: 4px;
-  	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-}
 nav {
   background-color: #fff;
   border: 1px solid #dedede;
@@ -205,3 +106,97 @@ nav {
               nav > ul > li > div ul > li:hover > a {
                 background-color: rgba( 255, 255, 255, 0.1);
               }
+
+body{
+  color: #888;
+  background-color: aliceblue;
+}
+#left_bar{
+  position: fixed;
+  background-color: #dedede;
+  color: #888;
+  text-indent: 5px;
+  width: 15%;
+  height: 80%;
+  left: -13%;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; 
+
+}
+#left_bar:hover{
+  left: 0px;
+  background-color: rgb( 40, 44, 47 );
+  color: #fff;
+}
+
+main{
+  background-color: #dedede;
+  color: #888;
+  text-indent: 5px;
+  position: fixed;
+  width: 95%;
+  left: 2.5%;
+  z-index: -1;
+  height: 80%;
+
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+            -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; 
+}
+  #central_frame{
+    float:left;
+    border: none;
+
+    height: 100%;
+    width: 100%;
+  }
+#left_bar:hover ~ #main{
+  width: 82%;
+  left: 15.5%;
+}
+
+#right_bar{
+  position: fixed;
+  left: 98%;
+  width: 15%;
+  height: 80%;
+  background-color: #dedede;
+  color: #888;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    text-indent: 5px;
+            -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; 
+}
+#right_bar:hover{
+    background-color: rgb( 40, 44, 47 );
+    color: #fff;
+    left:87%;
+}
+footer{
+  position: fixed;
+  top: 96.9%;
+  left:0%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background-color: #dedede;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+}
